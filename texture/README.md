@@ -1,5 +1,3 @@
-# Instructions
-
 ```
 git clone git@github.com:yaxingwang/UDIT.git
 ```
@@ -11,7 +9,7 @@ Download [pretrained face](https://drive.google.com/file/d/1VHOgS-NdoVaDCMQTSLOO
 
 
 
-- Training 
+Training 
 ```
 python --config configs/UDIT_flat2texture.yaml
 ```
