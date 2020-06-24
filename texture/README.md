@@ -1,7 +1,7 @@
 ```
 git clone git@github.com:yaxingwang/UDIT.git
 ```
-You will get new folder whose name is `UDIT` in your current path, then  use `cd UDIT` to enter the downloaded new folder
+You will get new folder whose name is `UDIT` in your current path, then  use `cd UDIT/texture` to enter the downloaded new folder
 
     
 
