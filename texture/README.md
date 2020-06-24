@@ -17,19 +17,22 @@ The task of unpaired image-to-image translation is highly challenging due to the
 - Install tensorflow
 - Opencv 
 # Instructions
-- Using 'https://github.com/yaxingwang/UDIT.git'
 
-    You will get new folder whose name is 'UDIT' in your current path, then  use 'cd UDIT' to enter the downloaded new folder
+```
+git clone git@github.com:yaxingwang/UDIT.git
+```
+You will get new folder whose name is 'UDIT' in your current path, then  use 'cd UDIT' to enter the downloaded new folder
     
-- Download pretrain models
 
-- Download dataset or use your dataset.
+Download pretrained face and dataset(https://drive.google.com/drive/u/1/folders/1iXYCQ4fD0U5LOBCaIfUmDKEkTp_vpQfN). Adding the data into path: 'UDIT/texture/dataset', and pretrained face (layers.npy) into path: 'UDIT/texture/deepface'
 
-    I have shown one example and you could make it with same same form.
 
-- Run 'python configs/UDIT_flat2texture.yaml'
 
-   Runing code with default setting. 
+- Training 
+```
+python --config configs/UDIT_flat2texture.yaml
+```
+
  
 
 
