@@ -5,7 +5,7 @@ You will get new folder whose name is `UDIT` in your current path, then  use `cd
 
     
 
-Download [pretrained face](https://drive.google.com/file/d/1VHOgS-NdoVaDCMQTSLOObMFUloaRAp6F/view?usp=sharing) and [day_night](https://drive.google.com/file/d/1h4WAWxhbfJvhZOJuNUZM1XAfEgHWJvXV/view?usp=sharing). Adding the data (`day_night`) into path: `cd UDIT/day2night/dataset`, and pretrained face (`layers.npy`) into path: `cd UDIT/day2night/deepface`
+Download [pretrained face](https://drive.google.com/file/d/1VHOgS-NdoVaDCMQTSLOObMFUloaRAp6F/view?usp=sharing) and [day_night](https://drive.google.com/file/d/1h4WAWxhbfJvhZOJuNUZM1XAfEgHWJvXV/view?usp=sharing). Adding the data (`day_night`) into path: `UDIT/day2night/dataset`, and pretrained face (`layers.npy`) into path: `UDIT/day2night/deepface`
 
 
 

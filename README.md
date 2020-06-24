@@ -24,6 +24,7 @@ git clone git@github.com:yaxingwang/UDIT.git
 
     
 - [Texture](https://github.com/yaxingwang/UDIT/tree/master/texture) 
+- [Day2night](https://github.com/yaxingwang/UDIT/tree/master/day2night) 
 
 
  
