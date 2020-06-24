@@ -21,18 +21,10 @@ The task of unpaired image-to-image translation is highly challenging due to the
 ```
 git clone git@github.com:yaxingwang/UDIT.git
 ```
-You will get new folder whose name is `UDIT` in your current path, then  use `cd UDIT` to enter the downloaded new folder
 
     
+- [Texture](https://github.com/yaxingwang/UDIT/tree/master/texture) 
 
-Download [pretrained face](https://drive.google.com/file/d/1VHOgS-NdoVaDCMQTSLOObMFUloaRAp6F/view?usp=sharing) and [texture](https://drive.google.com/file/d/1yzfMmlaMSEa6FQaFbjiO4GGL6snb7Uqb/view?usp=sharing). Adding the data (`black_red_bias`) into path: `cd UDIT/texture/dataset`, and pretrained face (`layers.npy`) into path: `cd UDIT/texture/deepface`
-
-
-
-- Training 
-```
-python --config configs/UDIT_flat2texture.yaml
-```
 
  
 
