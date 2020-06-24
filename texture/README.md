@@ -24,7 +24,7 @@ git clone git@github.com:yaxingwang/UDIT.git
 You will get new folder whose name is 'UDIT' in your current path, then  use 'cd UDIT' to enter the downloaded new folder
     
 
-Download [pretrained face](https://drive.google.com/file/d/1VHOgS-NdoVaDCMQTSLOObMFUloaRAp6F/view?usp=sharing) and dataset(https://drive.google.com/file/d/1yzfMmlaMSEa6FQaFbjiO4GGL6snb7Uqb/view?usp=sharing). Adding the data into path: 'UDIT/texture/dataset', and pretrained face (layers.npy) into path: 'UDIT/texture/deepface'
+Download [pretrained face](https://drive.google.com/file/d/1VHOgS-NdoVaDCMQTSLOObMFUloaRAp6F/view?usp=sharing) and [dataset](https://drive.google.com/file/d/1yzfMmlaMSEa6FQaFbjiO4GGL6snb7Uqb/view?usp=sharing). Adding the data into path: 'UDIT/texture/dataset', and pretrained face (layers.npy) into path: 'UDIT/texture/deepface'
 
 
 
