@@ -21,10 +21,11 @@ The task of unpaired image-to-image translation is highly challenging due to the
 ```
 git clone git@github.com:yaxingwang/UDIT.git
 ```
-You will get new folder whose name is 'UDIT' in your current path, then  use 'cd UDIT' to enter the downloaded new folder
+You will get new folder whose name is `UDIT` in your current path, then  use `cd UDIT` to enter the downloaded new folder
+
     
 
-Download [pretrained face](https://drive.google.com/file/d/1VHOgS-NdoVaDCMQTSLOObMFUloaRAp6F/view?usp=sharing) and [dataset](https://drive.google.com/file/d/1yzfMmlaMSEa6FQaFbjiO4GGL6snb7Uqb/view?usp=sharing). Adding the data into path: 'UDIT/texture/dataset', and pretrained face (layers.npy) into path: 'UDIT/texture/deepface'
+Download [pretrained face](https://drive.google.com/file/d/1VHOgS-NdoVaDCMQTSLOObMFUloaRAp6F/view?usp=sharing) and [texture](https://drive.google.com/file/d/1yzfMmlaMSEa6FQaFbjiO4GGL6snb7Uqb/view?usp=sharing). Adding the data (`black_red_bias`) into path: `cd UDIT/texture/dataset`, and pretrained face (`layers.npy`) into path: `cd UDIT/texture/deepface`
 
 
 
@@ -38,7 +39,7 @@ python --config configs/UDIT_flat2texture.yaml
 
 
 # References 
-- \[1\] MUNIT(https://arxiv.org/abs/1804.04732) 
+- \[1\] [MUNIT](https://arxiv.org/abs/1804.04732) 
 # Contact
 
 If you run into any problems with this code, please submit a bug report on the Github site of the project. For another inquries pleace contact with me: yaxing@cvc.uab.es
